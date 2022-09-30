@@ -20,5 +20,9 @@ class Starter extends Denizen {
       velocity: new Vector(xVel, yVel),
       type: this.tank.getRandomSpecies(),
     });
+    setTimeout(() => {
+      this.imageUri = '/images/volcano.jpg';
+    }, 200)
+    this.imageUri = '/images/volcano-clicked.png';
   }
 }

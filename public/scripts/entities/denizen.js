@@ -62,7 +62,7 @@ class Denizen {
   }
 
   outOfBounds(bounds) {
-    // TODO: it'd be cool if Seeds could go above the top fo the tank, then fall back down
+    // TODO: it'd be cool if Seeds could go above the top of the tank, then fall back down
     return (
       this.position.x + 5 * this.width < bounds.minX ||
       this.position.x - 5 * this.width > bounds.maxX ||

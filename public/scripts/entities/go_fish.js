@@ -2,6 +2,7 @@ class GoFish extends Fish {
 
   constructor(options) {
     super(options);
+    this.imageUri = '/images/gofish.png';
     this.surgeSecondsLeft = 0;
     this.maxSurge = 1.0;
     this.surgMult = 3.0;

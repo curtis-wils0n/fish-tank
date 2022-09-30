@@ -85,7 +85,7 @@ class Fishtank {
       var renderRules = denizen.renderRules();
       var $denizen = $('#' + id);
       if ($denizen.length === 0) {
-        $denizen = $(`<img id="${id}"></img>`);
+        $denizen = $(`<img id="${id}" class="denizen"></img>`);
         $denizen.css({position: 'fixed'});
         $denizen.click(denizen.onClick);
         $fishtank.append($denizen);
